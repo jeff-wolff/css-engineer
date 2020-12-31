@@ -44,5 +44,8 @@ module.exports = {
       favicon: './src/images/logo.svg',
       template: './src/index.ejs'
     })
-  ]
+  ],
+  experiments: {
+    topLevelAwait: true
+  },
 };

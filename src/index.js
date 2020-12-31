@@ -1,6 +1,8 @@
 import 'normalize.css';
 import './style.scss';
-
+if (!("scrollBehavior" in document.documentElement.style)) {
+	await import("scroll-behavior-polyfill");
+}
 
 const next = document.querySelector('.testimonial-block__forward-arrow');
 const prev = document.querySelector('.testimonial-block__back-arrow');
