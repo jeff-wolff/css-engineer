@@ -1,0 +1,30 @@
+{
+  "name": "clickup-css-engineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "normalize.css": "^8.0.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "favicons-webpack-plugin": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
+  },
+  "scripts": {
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
